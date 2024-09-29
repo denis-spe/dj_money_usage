@@ -1,0 +1,5 @@
+{% extends 'usage/base.html' %}
+{% block contents %}
+<h1>Hi, welcome to money usage</h1>
+{{ income|json_script:"all-income" }}
+{% endblock %}
